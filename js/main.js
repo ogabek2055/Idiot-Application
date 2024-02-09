@@ -8,7 +8,9 @@ function addIdiot() {
   let value = inputPrice.value;
   let text = textarea.value;
   if (name == "" || value == "" || textarea.value == "") {
-    alert("Please enter idiot Price or idiot Name");
+    alert(
+      "Please enter idiot Price or idiot Name or about Idiot product"
+    );
   } else {
     let idiotObj = {
       name: name,
