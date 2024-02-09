@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Idiot Application</title>
+  </head>
+  <body style="background-color: rgb(68, 67, 67)">
+    <div class="container">
+      <center><h1>Idiot Market🥴</h1></center>
+      <center>
+        <div class="idiotForm">
+          <input
+            id="name"
+            type="text"
+            placeholder="Name of Idiot Product"
+            required
+          />
+          <input
+            id="price"
+            type="text"
+            placeholder="Price of Idiot Product"
+            required
+          />
+          <input
+            type="text"
+            id="textarea"
+            placeholder="About Idiot Product"
+          />
+          <button onclick="addIdiot()" id="formBtn">
+            Add Idiot Product
+          </button>
+        </div>
+      </center>
+      <button onclick="renderProducts()" id="formBtn">
+        Show Idiot Card
+      </button>
+      <center>
+        <ul id="idiotList"></ul>
+      </center>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
